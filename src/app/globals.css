@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip-trapezium {
+  clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+.clip-button-a {
+  clip-path: polygon(50% 0%, 53% 7%, 85% 7%, 89% 0, 100% 0, 100% 100%, 0 100%, 0 25%, 10% 0);
+}
+
+.clip-button-b {
+  clip-path: polygon(90% 0%, 100% 38%, 100% 100%, 0 100%, 0 0);
+}
