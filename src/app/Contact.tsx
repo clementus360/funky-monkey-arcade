@@ -81,7 +81,7 @@ export function Contact() {
     <section id="contact" className='flex flex-col-reverse sm:grid sm:grid-cols-[4fr_4fr] gap-24 p-8 py-12 sm:py-0 sm:p-0 sm:pr-24'>
       <div className='flex flex-col'>
         <div className='relative w-[200] h-[360]'>
-          <img className='relative object-cover w-full h-full z-10' src={'./images/Screenshot 2023-12-30 at 22.57.03.png'} alt={'funky monkey arcade'} />
+          <video className='relative object-cover w-full h-full z-10' src={'./videos/first esport center in Rwanda!! funky monkey arcade_1.mp4'} autoPlay muted />
           <div className='absolute top-4 left-4 z-0 bg-primary w-full h-full'></div>
         </div>
 

@@ -4,7 +4,7 @@ export function About() {
   return (
     <section id="about" className='relative py-16 sm:py-0 sm:pr-24 flex flex-col-reverse sm:grid sm:grid-cols-[3fr_2fr] gap-8 sm:items-center'>
       <div className='relative clip-trapezium'>
-        <video className='left-0 w-full sm:h-[40vw] object-cover' src="./videos/InShot_20230814_150812336.mp4" autoPlay></video>
+        <video className='left-0 w-full sm:h-[40vw] object-cover' src="./videos/InShot_20230814_150812336.mp4" autoPlay muted></video>
       </div>
 
       <div className='flex px-8 sm:px-0 flex-col gap-4 sm:items-end'>

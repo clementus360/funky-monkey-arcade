@@ -1,7 +1,7 @@
 "use client"
 
 import { app } from "@/utils/firebase"
-import { getFirestore,setDoc, doc, updateDoc, query, collection, QuerySnapshot, getDocs, DocumentData } from "firebase/firestore";
+import { getFirestore, query, collection, getDocs, DocumentData } from "firebase/firestore";
 import { useState, useEffect, useRef } from "react"
 
 import Slider from "react-slick";
@@ -73,8 +73,8 @@ export function Games() {
   return (
     <section id="games" className='flex flex-col sm:grid sm:grid-cols-[40vw_1fr] gap-8 py-8 sm:py-0  sm:pl-24 sm:my-16 sm:h-[35vw] items-center'>
       <div className='flex flex-col gap-4 px-8 sm:pl-0'>
-        <h2 className='font-title font-bold text-white text-3xl sm:textvw-[40] lineheight-[16]'>PLAY THE BEST <span className='text-primary'>GEMS</span><br />AND JOIN EVENTS</h2>
-        <p className='font-text text-xl sm:textvw-[20] text-text lineheight-[26]'>Experience esports excitement in Rwanda at our cutting-edge facility, welcoming casual and aspiring pro gamers. Join us to be part of redefining Rwanda’s esports scene.</p>
+        <h2 className='font-title font-bold text-white text-3xl sm:textvw-[40] lineheight-[16]'>PLAY THE BEST <span className='text-primary'>GAMES</span><br />AND JOIN EVENTS</h2>
+        <p className='font-text text-xl sm:textvw-[20] text-text lineheight-[26]'>Dive into a variety of games at our esports hub, catering to diverse preferences and skill levels. From popular esports titles to casual favorites, find the perfect gaming experience for you.</p>
       </div>
 
       <div className='flex flex-col w-full overflow-x-hidden'>

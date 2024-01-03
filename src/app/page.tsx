@@ -5,9 +5,9 @@ import { Games } from "./Games";
 function Hero() {
   return (
     <section className={`relative overflow-hidden flex flex-col sm:grid sm:grid-cols-[1fr_2fr] bg-[url('/images/26293.jpg')] bg-blend-lighten bg-top bg-cover vh-[960] max-h-[600px] lg:max-h-[1024px] pt-32 sm:px-24`}>
-      <div className='sm:ptvh-[200] m-auto sm:m-0'>
-        <p className='font-text textvw-[64] sm:textvw-[20] text-text'>ULTIMATE GAME HUB</p>
-        <h1 className='font-title font-bold text-white textvw-[240] sm:textvw-[100] lineheight-[16]'>PLAY.<br /><span className='text-primary'>CONQUER.</span><br />REPEAT.</h1>
+      <div className='sm:ptvh-[200] w-max m-auto sm:m-0'>
+        <p className='font-text textvw-[64] sm:textvw-[20] text-text'>FUNKY MONKEY ARCADE</p>
+        <h1 className='font-title font-bold text-white textvw-[200] sm:textvw-[60] lineheight-[16]'>EVERYTHING <br /><span className='text-primary textvw-[240] sm:textvw-[90]'>YOU LOVE</span><br /> <span className="textvw-[190] sm:textvw-[76]">IN ONE PLACE.</span></h1>
       </div>
 
       <div>
