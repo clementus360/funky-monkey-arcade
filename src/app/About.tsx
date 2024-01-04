@@ -11,12 +11,12 @@ export function About() {
         <h2 className='font-title font-bold text-white text-4xl sm:textvw-[40] lineheight-[8] sm:lineheight-[16]'>FUNKY MONKEY<br /><span className='text-primary text-7xl sm:textvw-[80]'>ARCADE</span></h2>
         <p className='font-text text-xl sm:textvw-[20] text-text sm:text-end lineheight-[26]'>Experience esports excitement in Rwanda at our cutting-edge facility, welcoming casual and aspiring pro gamers. Join us to be part of redefining Rwanda’s esports scene.</p>
         
-        <Link href={"#contact"}>
+        {/* <Link href={"#contact"}>
           <button className="flex items-center justify-center w-max bg-primary clip-button-b py-4 px-4 gap-4 text-white">
             <img className="vh-[20]" src="./icons/contact.svg" alt="contact us" />
             CONTACT US
           </button>
-        </Link>
+        </Link> */}
       </div>
     </section>
   );

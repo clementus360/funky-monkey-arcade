@@ -78,9 +78,9 @@ export function Contact() {
 
 
   return (
-    <section id="contact" className='flex flex-col-reverse sm:grid sm:grid-cols-[4fr_4fr] gap-24 p-8 py-12 sm:py-0 sm:p-0 sm:pr-24'>
+    <section id="contact" className='flex items-center flex-col-reverse  gap-24 p-8 py-12 sm:py-0 sm:p-0 sm:pr-24'>
       <div className='flex flex-col'>
-        <div className='relative w-[200] h-[360]'>
+        <div className='hidden sm:block relative w-[200] h-[360]'>
           <video className='relative object-cover w-full h-full z-10' src={'./videos/first esport center in Rwanda!! funky monkey arcade_1.mp4'} autoPlay muted />
           <div className='absolute top-4 left-4 z-0 bg-primary w-full h-full'></div>
         </div>
@@ -109,7 +109,7 @@ export function Contact() {
 
       </div>
 
-      <div className='flex flex-col gap-8'>
+      {/* <div className='flex flex-col gap-8'>
         <h2 className='font-title font-bold text-white text-4xl sm:textvw-[40] lineheight-[8] sm:lineheight-[16]'>GET IN TOUCH</h2>
         <form className='flex flex-col gap-8' ref={form} onSubmit={sendMail}>
           <input onChange={handleName} value={name} className='w-full h-8 px-4 py-6 border-b-2 border-b-text bg-transparent text-text' type="text" name="name" placeholder='Full name' />
@@ -133,7 +133,7 @@ export function Contact() {
 				<div className="fixed z-50 flex justify-center m-auto bottom-0 w-full p-4 bg-black bg-opacity-80 rounded-lg">
 					<h1 className="text-2xl text-primary font-LogikBold">{error}</h1>
 				</div>
-			}
+			} */}
     </section>
   );
 }

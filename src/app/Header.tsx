@@ -11,12 +11,12 @@ export default function Header() {
                 <Link href={"#games"}><li>GAMES</li></Link>
             </ul>
 
-            <Link href={"#contact"}>
+            {/* <Link href={"#contact"}>
                 <button className="flex items-center text-sm justify-center bg-primary clip-button-a p-2 sm:p-4 gap-4">
                     <img className="vh-[20]" src="./icons/contact.svg" alt="contact us" />
                     CONTACT US
                 </button>
-            </Link>
+            </Link> */}
         </nav>
     </header>
   )
