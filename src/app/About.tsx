@@ -1,6 +1,4 @@
-import Link from "next/link";
-
-export function About() {
+export default function About() {
   return (
     <section id="about" className='relative py-16 sm:py-0 sm:pr-24 flex flex-col-reverse sm:grid sm:grid-cols-[3fr_2fr] gap-8 sm:items-center'>
       <div className='relative clip-trapezium'>

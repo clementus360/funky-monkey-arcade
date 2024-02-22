@@ -1,6 +1,8 @@
-import { About } from "./About";
-import { Contact } from "./Contact";
-import { Games } from "./Games";
+import About from "./About";
+import Contact from "./Contact";
+import Games from "./Games";
+import Pool from "./Pool";
+import Popup from "./Popup"
 
 function Hero() {
   return (
@@ -20,9 +22,11 @@ function Hero() {
 export default function Home() {
   return (
     <div className='bg-dark bg-cover w-screen overflow-hidden'>
+      <Popup />
       <Hero />
       <About />
       <Games />
+      <Pool />
       <Contact />
     </div>
   )

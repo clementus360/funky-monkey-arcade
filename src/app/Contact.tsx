@@ -4,7 +4,7 @@ import {useState, useRef, ChangeEvent, FormEvent} from "react"
 
 import emailjs from "@emailjs/browser"
 
-export function Contact() {
+export default function Contact() {
   const form = useRef<HTMLFormElement>(null)
 
 	const [name, setName] = useState<string>('')
