@@ -39,7 +39,7 @@ export default function Popup() {
   return (
     <div className={` ${popup? 'grid':'hidden'} fixed z-50 top-0 w-screen h-screen place-items-center bg-primary bg-opacity-90`}>
         <div className='relative flex flex-col sm:grid sm:grid-cols-[2fr_3fr] sm:gap-4 w-11/12 sm:w-8/12 sm:h-[60vh] bg-black rounded-lg shadow-lg overflow-hidden'>
-            <div onClick={togglePopup} className='absolute text-primary text-xl font-LogikBold top-2 right-2 cursor-pointer'>x</div>
+            <div onClick={togglePopup} className='absolute text-primary text-4xl sm:text-xl font-LogikBold top-2 right-2 cursor-pointer'>x</div>
 
             <img src={popupData?.image || ''} alt="" className='hidden sm:block bg-primary sm:w-full sm:h-full' />
 
